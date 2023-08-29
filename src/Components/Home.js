@@ -17,17 +17,17 @@ import img_logos4  from "../assets/img/company-logos/4.png"
 import img_logos5 from "../assets/img/company-logos/5.png"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import "../assets/css/magnific-popup.css"
+import "../assets/css/main.css"
+
 
 const Home = () => {
+
+
   return (
-    <div>
-  {/* <div className="loader">
-    <div className="loader-inner">
-      <div className="circle" />
-    </div>
-  </div> */}
- 
-  <div className="top-header-area" id="sticker">
+    <>
+       
+  <div className="top-header-area " id="sticker ">
     <div className="container">
       <div className="row">
         <div className="col-lg-12 col-sm-12 text-center">
@@ -115,8 +115,8 @@ const Home = () => {
                 </li> */}
                 <li>
                   <div className="header-icons">
-                  <a className="" href="/Login">
-                      
+                
+                  <a className="" href="/Login"> 
                       Login
                     </a>
                     <a className="shopping-cart" href="cart.html">
@@ -739,7 +739,10 @@ researched and tailored for every industry — or start from a blank canvas on o
       </div>
     </div>
   </div>
-</div>
+ 
+
+  </>
+ 
 
   )
 }

@@ -627,7 +627,7 @@ margin-left:13px;
 }
 .text{
   text-align: left;
-    margin-left: 123px;
+    /* margin-left: 123px; */
 
 }
 ul.sub-menu li:last-child {
@@ -889,6 +889,7 @@ h2.widget-title {
   position: relative;
   padding-bottom: 20px;
   color: #fff;
+  text-align: initial
 }
 
 h2.widget-title:after {
@@ -899,7 +900,12 @@ h2.widget-title:after {
   height: 2px;
   background-color: #F28123;
   content: "";
+  
 }
+.texts{
+  text-align: initial
+}
+
 
 .footer-box p {
   color: #fff;
@@ -2643,7 +2649,7 @@ tr.total-data td strong {
 }
 
 .card.single-accordion .card-header {
-  background-color: #fff;
+  background-color: #c9bc9c6b;
   border: none;
   padding: 0;
 }
@@ -2794,4 +2800,43 @@ table.order-details tbody td {
   line-height: 1.1em;
   font-size: 64px;
 
+}
+/* -----------------------------------------------------------------------------
+
+Steps css
+
+----------------------------------------------------------------------------- */
+.steps-h5{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.steps-img{
+  height:65px;
+  width:65px;
+}
+
+.pagetitle {
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 17.5%;
+}
+#main {
+  margin-top: 30px;
+  padding: 20px 30px ;
+  transition: all 0.3s;
+  background-color: #d2dbe0;
+}
+
+.bg{
+  background-color: #e3e7e5;
+}
+/* .products{
+  background-color: #92a6b1;
+} */
+.productHead{
+  display: flex;
+}
+.productHeadOne{
+  margin-left: 50%;
 }

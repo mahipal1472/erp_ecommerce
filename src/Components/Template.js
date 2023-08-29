@@ -110,8 +110,11 @@ const Template = () => {
                 </li> */}
                 <li>
                   <div className="header-icons">
-                  <a className="" href="/Login">
-                      
+                  <a className="" href="/signup"> 
+                      SignUp
+                    </a>
+                    
+                  <a className="" href="/Login">  
                       Login
                     </a>
                     <a className="shopping-cart" href="cart.html">
